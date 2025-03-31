@@ -1,6 +1,5 @@
 FROM alpine:latest
 
-LABEL maintainer="kirill3ol"
 ARG PORT=80
 
 RUN apk update && \
